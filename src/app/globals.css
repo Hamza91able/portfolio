@@ -23,3 +23,27 @@ body {
   background: #0a192f;
   color: white;
 }
+
+.headingDivider {
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  white-space: nowrap;
+}
+
+.headingDivider::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 1px;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: rgb(148 163 184 / 1);
+}
+
