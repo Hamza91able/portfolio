@@ -10,9 +10,11 @@ export default function About() {
       <div className="relative isolate overflow-hidden py-24 sm:py-20 lg:mt-20">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <h2 className={styles.headingDivider}>About Me</h2>
-          <div className="grid lg:grid-cols-2">
+        </div>
+        <div className="mx-auto max-w-5xl px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 border border-white rounded-xl bg-white">
             {aboutData.map((about, index) => (
-              <AboutCard key={index} about={about} />
+              <AboutCard key={index} index={index} about={about} />
             ))}
           </div>
         </div>
