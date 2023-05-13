@@ -10,7 +10,7 @@ export default function Work() {
           <h2 className="headingDivider">My Recent Work</h2>
         </div>
       </div>
-      <div className="mx-auto max-w-6xl px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px- lg:px-8">
         <div className="grid md:grid-cols-3 grid-cols-1">
           {works.map((work, index) => (
             <div

@@ -17,7 +17,7 @@ export default function WorkCard({ work }: WorkCardProps) {
       }}
     >
       <div className={styles.workCard}>
-        <p className="text-lg text-center">{work.description}</p>
+        <p className="text-lg text-center select-none">{work.description}</p>
         <br />
         <a
           target="_blank"

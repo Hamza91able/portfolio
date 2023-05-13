@@ -23,4 +23,10 @@ export const works: IWork[] = [
       "Our goal is to bring Learning To People Instead of people to learning. Desgined the backend services for this E-Learning Platform (WIP)",
     link: "https://edrella-b5659.web.app/",
   },
+  {
+    backgroundImage: "/sweets-at-work.png",
+    description:
+      "In the pursuit of excellence Sweets At Work combine its own distinctive branding with products that make you feel extra special.",
+    link: "http://54.83.183.172/  ",
+  },
 ];
