@@ -12,9 +12,6 @@ export default function Experience() {
       <div className="mx-auto max-w-5xl px-6 lg:px-8">
         <Tabs />
       </div>
-      <br />
-      <br />
-      <br />
     </>
   );
 }

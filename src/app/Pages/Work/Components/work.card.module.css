@@ -1,0 +1,30 @@
+.workCard {
+  opacity: 0;
+  transition: 0.25s ease-in-out;
+  height: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.workCard:hover {
+  opacity: 1 !important;
+}
+
+.workCardParent:hover .workCard {
+  opacity: 1 !important;
+}
+
+.workCardParent {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.45s ease-in-out;
+}
+
+.workCardParent:hover {
+  background-image: none !important;
+}
+
+.websiteBtn {
+  transition: 0.25s ease-in-out;
+}
