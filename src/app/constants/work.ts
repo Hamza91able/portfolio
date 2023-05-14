@@ -18,12 +18,6 @@ export const works: IWork[] = [
     link: "https://lamdacoin.com/",
   },
   {
-    backgroundImage: "/luxxitt.png",
-    description:
-      "Professional drivers on every trip.\nDesgined the backend services for this ride sharing application.",
-    link: "https://play.google.com/store/apps/details?id=com.userluxxitt",
-  },
-  {
     backgroundImage: "/edrella.png",
     description:
       "Our goal is to bring Learning To People Instead of people to learning. Desgined the backend services for this E-Learning Platform (WIP)",
@@ -34,6 +28,12 @@ export const works: IWork[] = [
     description:
       "In the pursuit of excellence Sweets At Work combine its own distinctive branding with products that make you feel extra special.",
     link: "http://54.83.183.172/",
+  },
+  {
+    backgroundImage: "/luxxitt.png",
+    description:
+      "Professional drivers on every trip.\nDesgined the backend services for this ride sharing application.",
+    link: "https://play.google.com/store/apps/details?id=com.userluxxitt",
   },
   {
     backgroundImage: "/dumitru.png",
