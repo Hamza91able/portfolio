@@ -48,7 +48,7 @@ function Header() {
                 priority
                 className="block h-8 w-auto"
               />
-              <p className="ml-3">Hamza Khan</p>
+              <p className="ml-3">HAMZA KHAN</p>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
