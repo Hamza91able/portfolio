@@ -1,6 +1,7 @@
 import React from "react";
 import WorkCard from "./Components/WorkCard";
 import { works } from "@/app/constants/work";
+import WorkCardV2 from "./Components/WorkCard.v2";
 
 export default function Work() {
   return (
@@ -17,7 +18,7 @@ export default function Work() {
               key={index}
               className="p-6 shadow border-r-0 border-l-0 border-t-0 border-b-0 bg-transparent outline-none shadow-none"
             >
-              <WorkCard work={work} />
+              <WorkCardV2 work={work} />
             </div>
           ))}
         </div>
