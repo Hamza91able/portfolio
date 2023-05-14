@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./work.card.module.css";
-import Image from "next/image";
 import { IWork } from "@/app/constants/work";
 
 type WorkCardProps = {
@@ -16,16 +15,23 @@ export default function WorkCard({ work }: WorkCardProps) {
         height: 300,
       }}
     >
-      <div className={styles.workCard}>
+      <div
+        className={styles.workCard}
+        style={{
+          paddingTop: work.description.length > 135 ? 0 : 40,
+        }}
+      >
         <p className="text-lg text-center select-none">{work.description}</p>
         <br />
-        <a
-          target="_blank"
-          href={work.link}
-          className={`border-2 border-green-300 rounded-2xl p-2 pl-4 pr-4 hover:bg-green-300 hover:text-black ${styles.websiteBtn}`}
-        >
-          Visit Website
-        </a>
+        {work.link && (
+          <a
+            target="_blank"
+            href={work.link}
+            className={`border-2 border-green-300 rounded-2xl p-2 pl-4 pr-4 hover:bg-green-300 hover:text-black ${styles.websiteBtn}`}
+          >
+            Visit Website
+          </a>
+        )}
       </div>
     </div>
   );

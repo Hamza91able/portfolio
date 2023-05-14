@@ -1,10 +1,16 @@
 export interface IWork {
   backgroundImage: string;
   description: string;
-  link: string;
+  link?: string;
 }
 
 export const works: IWork[] = [
+  {
+    backgroundImage: "/switcheroo.png",
+    description:
+      "Our team has decades of experience in mortgages, banking, accounting, and consulting. We love mortgages but love helping our customers even more.",
+    link: "https://switcheroo.ie/",
+  },
   {
     backgroundImage: "/lamda-coin.png",
     description:
@@ -27,6 +33,12 @@ export const works: IWork[] = [
     backgroundImage: "/sweets-at-work.png",
     description:
       "In the pursuit of excellence Sweets At Work combine its own distinctive branding with products that make you feel extra special.",
-    link: "http://54.83.183.172/  ",
+    link: "http://54.83.183.172/",
+  },
+  {
+    backgroundImage: "/dumitru.png",
+    description:
+      "Your go-to source for high-quality activewear & fitness gear. Find stylish, functional apparel for men & women.",
+    link: undefined,
   },
 ];
