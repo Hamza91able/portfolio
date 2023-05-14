@@ -31,11 +31,16 @@ export default function Tabs() {
         <h2 className="text-sm text-slate-400 mb-4">
           {companies[selectedCompany].timePeriod}
         </h2>
-        <p className="text-gray-400 ml-2">
+        <ul
+          className="text-gray-400 ml-3"
+          style={{
+            listStyle: "disclosure-closed",
+          }}
+        >
           {companies[selectedCompany].points?.map((point, index) => (
             <li key={index}>{point}</li>
           ))}
-        </p>
+        </ul>
       </div>
     </div>
   );
