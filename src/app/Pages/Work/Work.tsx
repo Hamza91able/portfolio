@@ -31,9 +31,6 @@ export default function Work() {
           Email Me
         </a>
       </p>
-      <br />
-      <br />
-      <br />
     </>
   );
 }

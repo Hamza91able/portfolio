@@ -1,6 +1,7 @@
 import Header from "./Components/Header/Header";
 import About from "./Pages/About/About";
 import Experience from "./Pages/Experience/Experience";
+import Testimonials from "./Pages/Testimonials/Testimonials";
 import Work from "./Pages/Work/Work";
 import Scroll from "./Scroll";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <About />
         <Experience />
         <Work />
+        <Testimonials />
       </Scroll>
     </>
   );
