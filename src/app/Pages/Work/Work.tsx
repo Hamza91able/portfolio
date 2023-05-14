@@ -22,6 +22,15 @@ export default function Work() {
           ))}
         </div>
       </div>
+      <p className="text-center mt-10 text-lg">
+        Want to see more?{" "}
+        <a
+          className="text-blue-500"
+          href="mailto:m.hamzakhan91able@gmail.com"
+        >
+          Email Me
+        </a>
+      </p>
       <br />
       <br />
       <br />
