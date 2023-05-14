@@ -1,5 +1,4 @@
 import React from "react";
-import WorkCard from "./Components/WorkCard";
 import { works } from "@/app/constants/work";
 import WorkCardV2 from "./Components/WorkCard.v2";
 
