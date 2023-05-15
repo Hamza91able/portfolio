@@ -6,22 +6,22 @@ export default function Intro() {
     <div className="relative isolate overflow-hidden py-24 sm:py-20">
       <div className="mx-auto max-w-5xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <AnimatedDivY delay={700}>
+          <AnimatedDivY delay={500}>
             <p className="mt-6 text-lg leading-8 text-green-300 mb-5">
               Hi, my name is
             </p>
           </AnimatedDivY>
-          <AnimatedDivY delay={800}>
+          <AnimatedDivY delay={600}>
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl mb-4">
               Hamza Khan
             </h2>
           </AnimatedDivY>
-          <AnimatedDivY delay={900}>
+          <AnimatedDivY delay={700}>
             <h2 className="text-3xl font-bold text-slate-400 sm:text-5xl">
               I build web applications
             </h2>
           </AnimatedDivY>
-          <AnimatedDivY delay={1000}>
+          <AnimatedDivY delay={8000}>
             <p className="mt-6 text-lg text-slate-400 leading-8 text-gray-300">
               I am a Software Engineer who graduated from the University of
               Karachi. I have over 3 years of experience working as a Full Stack
