@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
+// TODO: Make it dynamic
 export default function TestimonialCard() {
   return (
     <section className="bg-white dark:bg-gray-900">
