@@ -23,9 +23,6 @@ export default function Testimonials() {
       >
         <TestimonialCard />
       </div>
-      <br />
-      <br />
-      <br />
     </>
   );
 }
