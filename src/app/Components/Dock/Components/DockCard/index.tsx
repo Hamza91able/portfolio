@@ -81,7 +81,7 @@ export const DockCard = ({ children }: DockCardProps) => {
   });
 
   const timesLooped = React.useRef(0);
-  const timeoutRef = React.useRef<number>();
+  const timeoutRef = React.useRef<number | any>();
   const isAnimating = React.useRef(false);
 
   const handleClick = () => {
