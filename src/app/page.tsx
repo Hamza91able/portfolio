@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import About from "./Pages/About/About";
 import Experience from "./Pages/Experience/Experience";
@@ -14,6 +15,7 @@ export default function Home() {
         <Experience />
         <Work />
         <Testimonials />
+        <Footer />
       </Scroll>
     </>
   );
