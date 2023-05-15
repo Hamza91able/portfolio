@@ -36,7 +36,7 @@ export default function Scroll({ children }: ScrollProps) {
 
   return (
     <div ref={containerRef} className={styles.body}>
-      <div className={styles.animated__layers}>
+      <div className={`${styles.animated__layers} hidden md:block`}>
         <animated.div ref={barContainerRef} className={styles.bar__container}>
           {Array.from({ length: X_LINES }).map((_, i) => (
             <animated.div
