@@ -9,7 +9,8 @@ export default function Footer() {
         <Image src="/logo.png" alt="Logo" width={120} height={120} priority />
       </div>
       <p className="text-center text-4xl">HAMZA KHAN</p>
-      <p className="text-center text-sm mt-10">Copyright Ⓒ 2023</p>
+      <p className="text-center text-xl">Software Engineer</p>
+      <p className="text-center text-sm mt-7">Copyright Ⓒ 2023</p>
       <DockContainer />
     </footer>
   );
