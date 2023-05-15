@@ -19,7 +19,7 @@ export default function TestimonialCard() {
           </svg>
           <blockquote>
             <p className="text-sm font-medium text-gray-900 dark:text-white">
-              Iam thrilled to recommend Hamza, a full stack developer who worked
+              I am thrilled to recommend Hamza, a full stack developer who worked
               under my supervision on my team. During our time working together,
               {/* eslint-disable-next-line react/no-unescaped-entities */}
               I have been consistently impressed with Hamza's exceptional skills
