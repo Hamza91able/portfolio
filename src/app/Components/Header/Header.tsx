@@ -5,13 +5,25 @@ function HeaderButtons() {
   const items: IHeaderItemType[] = [
     {
       name: "About",
-      link: "/",
-      isActive: true,
+      link: "#intro",
     },
     {
       name: "Experience",
-      link: "/",
-      isActive: false,
+      link: "#experience",
+    },
+    {
+      name: "Work",
+      link: "#work",
+    },
+    {
+      name: "Testimonials",
+      link: "#testimonials",
+    },
+    {
+      name: "Resume",
+      link: "/Muhammad_Hamza_Khan-CV.pdf",
+      target: "_blank",
+      isActive: true,
     },
   ];
 
@@ -21,10 +33,11 @@ function HeaderButtons() {
         <a
           href={item.link}
           className={`${
-            item.isActive && "bg-gray-800"
+            item.isActive && "bg-gray-500"
           } text-white rounded-md px-3 py-2 text-sm font-medium block`}
           aria-current="page"
           key={index}
+          target={item.target}
         >
           {item.name}
         </a>
@@ -50,8 +63,8 @@ function Header() {
               />
               <p className="ml-3">HAMZA KHAN</p>
             </div>
-            <div className="hidden sm:ml-6 sm:block">
-              <div className="flex space-x-4">
+            <div className="hidden sm:ml-6 sm:block w-full">
+              <div className="flex space-x-4 float-right">
                 <HeaderButtons />
               </div>
             </div>
@@ -60,7 +73,7 @@ function Header() {
       </div>
       {/* Mobile menu, show/hide based on menu state. */}
       <div className="sm:hidden" id="mobile-menu">
-        <div className="space-y-1 px-2 pb-3 pt-2">
+        <div className="space-y-1 px-2 pb-3 pt-2 text-center">
           <HeaderButtons />
         </div>
       </div>

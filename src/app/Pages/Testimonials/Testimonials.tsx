@@ -4,7 +4,7 @@ import TestimonialCard from "./Components/TestimonialCard";
 export default function Testimonials() {
   return (
     <>
-      <div className="relative isolate overflow-hidden lg:mt-40 mt-40">
+      <div className="relative isolate overflow-hidden lg:mt-40 mt-40" id="testimonials">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <h2 className="headingDivider">Testimonials</h2>
         </div>

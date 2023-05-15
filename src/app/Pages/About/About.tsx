@@ -5,7 +5,7 @@ import { aboutData } from "@/app/constants/about";
 
 export default function About() {
   return (
-    <>
+    <div id="intro">
       <Intro />
       <div className="relative isolate overflow-hidden py-24 sm:py-20 lg:mt-20">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
@@ -19,6 +19,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

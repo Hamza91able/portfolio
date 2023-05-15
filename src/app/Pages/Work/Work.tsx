@@ -5,7 +5,7 @@ import WorkCardV2 from "./Components/WorkCard.v2";
 export default function Work() {
   return (
     <>
-      <div className="relative isolate overflow-hidden lg:mt-40 mt-40">
+      <div className="relative isolate overflow-hidden lg:mt-40 mt-40" id="work">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <h2 className="headingDivider">My Recent Work</h2>
         </div>
