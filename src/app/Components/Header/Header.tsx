@@ -20,6 +20,10 @@ function HeaderButtons() {
       link: "#testimonials",
     },
     {
+      name: "Socials",
+      link: "#socials",
+    },
+    {
       name: "Resume",
       link: "/Muhammad_Hamza_Khan-CV.pdf",
       target: "_blank",

@@ -44,7 +44,8 @@ export const aboutData: IAbout[] = [
       },
       secondary: {
         heading: "Frameworks & Dev Tools",
-        description: "ThreeJS\nMatterJS\nSolidJS\nMaterialUI\nAntDesign\nTailwind CSS",
+        description:
+          "ThreeJS\nMatterJS\nSolidJS\nMaterialUI\nAntDesign\nTailwind CSS\nSpringJS",
       },
     },
   },
