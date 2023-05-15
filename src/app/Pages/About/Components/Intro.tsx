@@ -21,7 +21,7 @@ export default function Intro() {
               I build web applications
             </h2>
           </AnimatedDivY>
-          <AnimatedDivY delay={8000}>
+          <AnimatedDivY delay={800}>
             <p className="mt-6 text-lg text-slate-400 leading-8 text-gray-300">
               I am a Software Engineer who graduated from the University of
               Karachi. I have over 3 years of experience working as a Full Stack
@@ -31,7 +31,7 @@ export default function Intro() {
             </p>
           </AnimatedDivY>
 
-          <AnimatedDivY delay={1100}>
+          <AnimatedDivY delay={900}>
             <div className="mx-auto mt-10">
               <dl className="lg:mt-16">
                 <a
