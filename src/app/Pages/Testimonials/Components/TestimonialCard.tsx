@@ -8,8 +8,8 @@ type TestimonialCardProps = {
 
 export default function TestimonialCard({ testimonial }: TestimonialCardProps) {
   return (
-    <section className="bg-white dark:bg-gray-900">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+    <section className="bg-white dark:bg-gray-900 w-100">
+      <div className="px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
         <figure className="max-w-screen-md mx-auto">
           <svg
             className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
@@ -23,7 +23,12 @@ export default function TestimonialCard({ testimonial }: TestimonialCardProps) {
             />
           </svg>
           <blockquote>
-            <p className="text-sm font-medium text-gray-900 dark:text-white">
+            <p
+              className="text-sm font-medium text-gray-900 dark:text-white testimonial-p"
+              style={{
+                whiteSpace: "break-spaces",
+              }}
+            >
               {testimonial.testimonial}
             </p>
           </blockquote>

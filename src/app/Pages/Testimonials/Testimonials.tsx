@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import TestimonialCard from "./Components/TestimonialCard";
 import { testimonials } from "@/app/constants/testimonials";
+import Slick from "@/app/Components/Slick/Slick";
 
 export default function Testimonials() {
   const [selected, setSelected] = useState(0);
@@ -20,17 +21,14 @@ export default function Testimonials() {
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         People I've worked with have said some nice things...
       </p>
-      <div
-        className="mx-auto max-w-6xl px- lg:px-8 mt-12"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        {testimonials.map((testimonial, index) => (
-          <TestimonialCard testimonial={testimonial} key={index} />
-        ))}
+      <div className="mx-auto max-w-6xl px- lg:px-8 mt-12">
+        <Slick>
+          {testimonials.map((testimonial, index) => (
+            <div key={index}>
+              <TestimonialCard testimonial={testimonial} key={index} />
+            </div>
+          ))}
+        </Slick>
       </div>
     </>
   );

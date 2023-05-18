@@ -1,0 +1,10 @@
+.paging {
+  display: inline-block;
+  margin: 0 6px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #e6ecf8;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
