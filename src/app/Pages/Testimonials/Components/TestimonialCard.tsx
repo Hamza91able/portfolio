@@ -1,8 +1,12 @@
+import { ITestimonial } from "@/app/constants/testimonials";
 import Image from "next/image";
 import React from "react";
 
-// TODO: Make it dynamic
-export default function TestimonialCard() {
+type TestimonialCardProps = {
+  testimonial: ITestimonial;
+};
+
+export default function TestimonialCard({ testimonial }: TestimonialCardProps) {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
@@ -20,28 +24,7 @@ export default function TestimonialCard() {
           </svg>
           <blockquote>
             <p className="text-sm font-medium text-gray-900 dark:text-white">
-              I am thrilled to recommend Hamza, a full stack developer who worked
-              under my supervision on my team. During our time working together,
-              {/* eslint-disable-next-line react/no-unescaped-entities */}
-              I have been consistently impressed with Hamza's exceptional skills
-              Node, and React, as well as their remarkable ability to build
-              strong logic and software architecture.
-              <br />
-              <br />
-              {/* eslint-disable-next-line react/no-unescaped-entities */}
-              One of Hamza's greatest strengths is their lightning-fast learning
-              ability. They have consistently demonstrated their capacity to
-              learn quickly and efficiently, whether it be in mastering a new
-              framework or technology, or in understanding complex tasks
-              requirements. Additionally, Hamza has an incredible knack for
-              getting difficult tasks done in record time, while maintaining an
-              exceptional level of quality in their work.
-              <br />
-              <br />I have no doubt that Hamza will continue to excel in their
-              career. Their strong technical skills, impressive work ethic, and
-              commitment to excellence make them a valuable asset to any team. I
-              would highly recommend Hamza to any organization in need of a
-              talented and hardworking developer.
+              {testimonial.testimonial}
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
@@ -50,14 +33,14 @@ export default function TestimonialCard() {
               alt="profile picture"
               width={100}
               height={100}
-              src="/yousuf.jpg"
+              src={testimonial.profileImage}
             />
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
               <div className="pr-3 font-medium text-gray-900 dark:text-white">
-                Muhammad Yousuf Iqbal Khan
+                {testimonial.name}
               </div>
               <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                Development Lead (Delivery & Payments) at Bykea
+                {testimonial.designation}
               </div>
             </div>
           </figcaption>

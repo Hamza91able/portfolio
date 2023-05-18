@@ -1,10 +1,17 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import TestimonialCard from "./Components/TestimonialCard";
+import { testimonials } from "@/app/constants/testimonials";
 
 export default function Testimonials() {
+  const [selected, setSelected] = useState(0);
+
   return (
     <>
-      <div className="relative isolate overflow-hidden lg:mt-40 mt-40" id="testimonials">
+      <div
+        className="relative isolate overflow-hidden lg:mt-40 mt-40"
+        id="testimonials"
+      >
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <h2 className="headingDivider">Testimonials</h2>
         </div>
@@ -21,7 +28,9 @@ export default function Testimonials() {
           alignItems: "center",
         }}
       >
-        <TestimonialCard />
+        {testimonials.map((testimonial, index) => (
+          <TestimonialCard testimonial={testimonial} key={index} />
+        ))}
       </div>
     </>
   );
