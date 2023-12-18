@@ -1,4 +1,4 @@
-datguyhanza.dev
+datguyhamza.dev
 
 ## Getting Started
 
