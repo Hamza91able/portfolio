@@ -18,13 +18,13 @@ export default function Intro() {
           </AnimatedDivY>
           <AnimatedDivY delay={700}>
             <h2 className="text-3xl font-bold text-slate-400 sm:text-5xl">
-              I build web applications
+              I build full stack softwares
             </h2>
           </AnimatedDivY>
           <AnimatedDivY delay={800}>
             <p className="mt-6 text-lg text-slate-400 leading-8 text-gray-300">
               I am a Software Engineer who graduated from the University of
-              Karachi. I have over 3 years of experience working as a Full Stack
+              Karachi. I have over 4 years of experience working as a Full Stack
               Engineer in the industry, specializing in both Microservice and
               Monolithic architectures, and using the latest industry-leading
               technologies and working on high scale applications.
